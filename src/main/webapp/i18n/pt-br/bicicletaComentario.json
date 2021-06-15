@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "bicicletaComentario": {
+      "home": {
+        "title": "Bicicleta Comentarios",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Bicicleta Comentario",
+        "createOrEditLabel": "Criar ou editar Bicicleta Comentario",
+        "notFound": "Nenhum Bicicleta Comentario encontrado"
+      },
+      "created": "Um novo Bicicleta Comentario foi criado com o identificador {{ param }}",
+      "updated": "Um Bicicleta Comentario foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Bicicleta Comentario foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Bicicleta Comentario {{ id }}?"
+      },
+      "detail": {
+        "title": "Bicicleta Comentario"
+      },
+      "id": "ID",
+      "observacao": "Observacao",
+      "bicicleta": "Bicicleta"
+    }
+  }
+}

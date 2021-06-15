@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "usuarioAplicacao": {
+      "home": {
+        "title": "Usuario Aplicacaos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Usuario Aplicacao",
+        "createOrEditLabel": "Criar ou editar Usuario Aplicacao",
+        "notFound": "Nenhum Usuario Aplicacao encontrado"
+      },
+      "created": "Um novo Usuario Aplicacao foi criado com o identificador {{ param }}",
+      "updated": "Um Usuario Aplicacao foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Usuario Aplicacao foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Usuario Aplicacao {{ id }}?"
+      },
+      "detail": {
+        "title": "Usuario Aplicacao"
+      },
+      "id": "ID",
+      "contato": "Contato",
+      "internalUser": "Internal User"
+    }
+  }
+}

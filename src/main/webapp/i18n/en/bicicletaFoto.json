@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "bicicletaFoto": {
+      "home": {
+        "title": "Bicicleta Fotos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Bicicleta Foto",
+        "createOrEditLabel": "Create or edit a Bicicleta Foto",
+        "notFound": "No Bicicleta Fotos found"
+      },
+      "created": "A new Bicicleta Foto is created with identifier {{ param }}",
+      "updated": "A Bicicleta Foto is updated with identifier {{ param }}",
+      "deleted": "A Bicicleta Foto is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bicicleta Foto {{ id }}?"
+      },
+      "detail": {
+        "title": "Bicicleta Foto"
+      },
+      "id": "ID",
+      "urlImagem": "Url Imagem",
+      "bicicleta": "Bicicleta"
+    }
+  }
+}

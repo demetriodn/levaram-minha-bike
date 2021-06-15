@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "bicicletaFoto": {
+      "home": {
+        "title": "Bicicleta Fotos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Bicicleta Foto",
+        "createOrEditLabel": "Criar ou editar Bicicleta Foto",
+        "notFound": "Nenhum Bicicleta Foto encontrado"
+      },
+      "created": "Um novo Bicicleta Foto foi criado com o identificador {{ param }}",
+      "updated": "Um Bicicleta Foto foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Bicicleta Foto foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Bicicleta Foto {{ id }}?"
+      },
+      "detail": {
+        "title": "Bicicleta Foto"
+      },
+      "id": "ID",
+      "urlImagem": "Url Imagem",
+      "bicicleta": "Bicicleta"
+    }
+  }
+}

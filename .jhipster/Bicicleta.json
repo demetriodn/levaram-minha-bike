@@ -1,0 +1,59 @@
+{
+  "name": "Bicicleta",
+  "fields": [
+    {
+      "fieldName": "descricao",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "StatusBicicleta",
+      "fieldValues": "PERDIDA,ENCONTRADA,RECUPERADA",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "numeroQuadro",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "numeroBikeRegistrada",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "bicicletaFoto",
+      "otherEntityRelationshipName": "bicicleta",
+      "relationshipName": "bicicletaFoto"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "bicicletaComentario",
+      "otherEntityRelationshipName": "bicicleta",
+      "relationshipName": "bicicletaComentario"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "evento",
+      "otherEntityRelationshipName": "bicicleta",
+      "relationshipName": "evento"
+    }
+  ],
+  "entityTableName": "bicicleta",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210615030344"
+}

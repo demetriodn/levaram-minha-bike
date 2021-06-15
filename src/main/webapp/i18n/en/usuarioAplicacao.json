@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "usuarioAplicacao": {
+      "home": {
+        "title": "Usuario Aplicacaos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Usuario Aplicacao",
+        "createOrEditLabel": "Create or edit a Usuario Aplicacao",
+        "notFound": "No Usuario Aplicacaos found"
+      },
+      "created": "A new Usuario Aplicacao is created with identifier {{ param }}",
+      "updated": "A Usuario Aplicacao is updated with identifier {{ param }}",
+      "deleted": "A Usuario Aplicacao is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Usuario Aplicacao {{ id }}?"
+      },
+      "detail": {
+        "title": "Usuario Aplicacao"
+      },
+      "id": "ID",
+      "contato": "Contato",
+      "internalUser": "Internal User"
+    }
+  }
+}
