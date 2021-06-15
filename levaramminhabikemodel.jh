@@ -1,0 +1,74 @@
+entity UsuarioAplicacao {
+  contato String maxlength(100)
+}
+
+entity Evento {	
+    dataHoraEvento Instant required,
+    tipoEvento TipoEvento required,    
+    tipoLocal TipoLocal required,
+	coordenadaLocal String maxlength(200),
+    detalhesLocal TextBlob,    
+    /* Quando foi registrado no site */
+    dataHoraCriacaoRegistro Instant,    
+    descricaoEvento TextBlob,
+    // Se furto
+    formaFixacao FormaFixacao,    
+    // Se roubo
+    metodoCoercao MetodoCoercao,
+    numEnvolvidosAssaltantes Integer min(1),
+    numEnvolvidosVitimas Integer min(1)
+}
+
+entity Bicicleta {	
+    descricao TextBlob required,
+    status StatusBicicleta required
+    numeroQuadro String maxlength(100),
+    numeroBikeRegistrada String maxlength(100),
+}
+
+entity BicicletaFoto {
+	urlImagem String maxlength(256)
+}
+
+/* Pode ser utilizado como canal de denuncia ou para informar como foi recuperada */
+entity BicicletaComentario {
+	observacao String
+}
+
+relationship OneToMany {
+	Evento to Bicicleta{evento},
+    Bicicleta to BicicletaFoto{bicicleta}
+    Bicicleta to BicicletaComentario{bicicleta}
+}
+
+relationship OneToOne {
+  UsuarioAplicacao{internalUser} to User
+}
+enum StatusBicicleta {
+	PERDIDA, ENCONTRADA, RECUPERADA
+}
+
+enum TipoLocal {
+	RUA, CALCADA, CICLOVIA, PRACA, MORADIA, CONDOMINIO, TRILHA, OUTRO
+}
+
+enum TipoEvento {
+    FURTO, ROUBO
+}
+
+enum MetodoCoercao {
+	ARMA_BRANCA, ARMA_DE_FOGO, AMEACA, OUTRO
+}
+
+enum FormaFixacao {
+	SOLTA, TRAVA_EM_U, CORRENTE
+}
+
+// Set pagination options
+paginate Bicicleta with infinite-scroll
+paginate Evento with pagination
+
+// Set service options to all except few
+service Evento with serviceClass
+
+
