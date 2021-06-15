@@ -1,0 +1,29 @@
+{
+  "name": "BicicletaFoto",
+  "fields": [
+    {
+      "fieldName": "urlImagem",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "256"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "bicicleta",
+      "otherEntityRelationshipName": "bicicletaFoto",
+      "relationshipName": "bicicleta"
+    }
+  ],
+  "entityTableName": "bicicleta_foto",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210615030345"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "UsuarioAplicacao",
+  "fields": [
+    {
+      "fieldName": "contato",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "usuarioAplicacao",
+      "relationshipName": "internalUser",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "usuario_aplicacao",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210615030342"
+}

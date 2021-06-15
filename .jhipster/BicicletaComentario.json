@@ -1,0 +1,27 @@
+{
+  "name": "BicicletaComentario",
+  "fields": [
+    {
+      "fieldName": "observacao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "bicicleta",
+      "otherEntityRelationshipName": "bicicletaComentario",
+      "relationshipName": "bicicleta"
+    }
+  ],
+  "entityTableName": "bicicleta_comentario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210615030346"
+}

@@ -1,0 +1,11 @@
+id;data_hora_evento;tipo_evento;tipo_local;coordenada_local;detalhes_local;data_hora_criacao_registro;descricao_evento;forma_fixacao;metodo_coercao;num_envolvidos_assaltantes;num_envolvidos_vitimas
+1;2021-06-14T08:36:15;ROUBO;CICLOVIA;compelling Bolívia Zimbábue;../fake-data/blob/hipster.txt;2021-06-14T23:07:16;../fake-data/blob/hipster.txt;TRAVA_EM_U;OUTRO;83771;66701
+2;2021-06-14T22:13:37;FURTO;CALCADA;Assurance collaboration;../fake-data/blob/hipster.txt;2021-06-14T18:09:39;../fake-data/blob/hipster.txt;TRAVA_EM_U;AMEACA;80610;47977
+3;2021-06-14T13:09:20;FURTO;OUTRO;cross-platform;../fake-data/blob/hipster.txt;2021-06-14T14:49:45;../fake-data/blob/hipster.txt;TRAVA_EM_U;ARMA_DE_FOGO;90930;95520
+4;2021-06-14T17:48:23;FURTO;CICLOVIA;Division Jogos;../fake-data/blob/hipster.txt;2021-06-14T12:41:22;../fake-data/blob/hipster.txt;TRAVA_EM_U;ARMA_BRANCA;7618;34092
+5;2021-06-15T00:39:14;ROUBO;MORADIA;calculate RSS Buckinghamshire;../fake-data/blob/hipster.txt;2021-06-15T02:55:21;../fake-data/blob/hipster.txt;CORRENTE;AMEACA;29644;95884
+6;2021-06-14T03:38:50;ROUBO;CICLOVIA;Bebê;../fake-data/blob/hipster.txt;2021-06-14T20:43:34;../fake-data/blob/hipster.txt;TRAVA_EM_U;ARMA_BRANCA;44515;77986
+7;2021-06-14T07:41:15;FURTO;CICLOVIA;Esportes Maranhão;../fake-data/blob/hipster.txt;2021-06-14T07:35:16;../fake-data/blob/hipster.txt;CORRENTE;OUTRO;64213;4556
+8;2021-06-15T01:44:49;ROUBO;RUA;Goiás methodology online;../fake-data/blob/hipster.txt;2021-06-14T08:46:06;../fake-data/blob/hipster.txt;SOLTA;AMEACA;18594;48994
+9;2021-06-14T13:54:25;FURTO;TRILHA;Berkshire content;../fake-data/blob/hipster.txt;2021-06-14T15:36:15;../fake-data/blob/hipster.txt;SOLTA;ARMA_DE_FOGO;7914;70757
+10;2021-06-14T12:45:44;ROUBO;CALCADA;Sem Saúde;../fake-data/blob/hipster.txt;2021-06-15T02:39:28;../fake-data/blob/hipster.txt;SOLTA;ARMA_DE_FOGO;54800;49721

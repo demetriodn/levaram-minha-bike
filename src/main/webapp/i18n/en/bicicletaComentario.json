@@ -1,0 +1,25 @@
+{
+  "levaramMinhaBikeApp": {
+    "bicicletaComentario": {
+      "home": {
+        "title": "Bicicleta Comentarios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Bicicleta Comentario",
+        "createOrEditLabel": "Create or edit a Bicicleta Comentario",
+        "notFound": "No Bicicleta Comentarios found"
+      },
+      "created": "A new Bicicleta Comentario is created with identifier {{ param }}",
+      "updated": "A Bicicleta Comentario is updated with identifier {{ param }}",
+      "deleted": "A Bicicleta Comentario is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bicicleta Comentario {{ id }}?"
+      },
+      "detail": {
+        "title": "Bicicleta Comentario"
+      },
+      "id": "ID",
+      "observacao": "Observacao",
+      "bicicleta": "Bicicleta"
+    }
+  }
+}

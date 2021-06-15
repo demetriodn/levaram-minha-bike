@@ -1,0 +1,10 @@
+{
+  "levaramMinhaBikeApp": {
+    "StatusBicicleta": {
+      "null": "",
+      "PERDIDA": "PERDIDA",
+      "ENCONTRADA": "ENCONTRADA",
+      "RECUPERADA": "RECUPERADA"
+    }
+  }
+}

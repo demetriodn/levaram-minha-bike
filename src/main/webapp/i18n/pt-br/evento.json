@@ -1,0 +1,35 @@
+{
+  "levaramMinhaBikeApp": {
+    "evento": {
+      "home": {
+        "title": "Eventos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Evento",
+        "createOrEditLabel": "Criar ou editar Evento",
+        "notFound": "Nenhum Evento encontrado"
+      },
+      "created": "Um novo Evento foi criado com o identificador {{ param }}",
+      "updated": "Um Evento foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Evento foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Evento {{ id }}?"
+      },
+      "detail": {
+        "title": "Evento"
+      },
+      "id": "ID",
+      "dataHoraEvento": "Data Hora Evento",
+      "tipoEvento": "Tipo Evento",
+      "tipoLocal": "Tipo Local",
+      "coordenadaLocal": "Coordenada Local",
+      "detalhesLocal": "Detalhes Local",
+      "dataHoraCriacaoRegistro": "Data Hora Criacao Registro",
+      "descricaoEvento": "Descricao Evento",
+      "formaFixacao": "Forma Fixacao",
+      "metodoCoercao": "Metodo Coercao",
+      "numEnvolvidosAssaltantes": "Num Envolvidos Assaltantes",
+      "numEnvolvidosVitimas": "Num Envolvidos Vitimas",
+      "bicicleta": "Bicicleta"
+    }
+  }
+}

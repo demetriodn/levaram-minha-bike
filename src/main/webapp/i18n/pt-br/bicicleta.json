@@ -1,0 +1,30 @@
+{
+  "levaramMinhaBikeApp": {
+    "bicicleta": {
+      "home": {
+        "title": "Bicicletas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Bicicleta",
+        "createOrEditLabel": "Criar ou editar Bicicleta",
+        "notFound": "Nenhum Bicicleta encontrado"
+      },
+      "created": "Um novo Bicicleta foi criado com o identificador {{ param }}",
+      "updated": "Um Bicicleta foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Bicicleta foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Bicicleta {{ id }}?"
+      },
+      "detail": {
+        "title": "Bicicleta"
+      },
+      "id": "ID",
+      "descricao": "Descricao",
+      "status": "Status",
+      "numeroQuadro": "Numero Quadro",
+      "numeroBikeRegistrada": "Numero Bike Registrada",
+      "bicicletaFoto": "Bicicleta Foto",
+      "bicicletaComentario": "Bicicleta Comentario",
+      "evento": "Evento"
+    }
+  }
+}

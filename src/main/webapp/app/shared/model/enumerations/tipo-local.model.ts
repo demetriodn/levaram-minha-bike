@@ -1,0 +1,17 @@
+export enum TipoLocal {
+  RUA = 'RUA',
+
+  CALCADA = 'CALCADA',
+
+  CICLOVIA = 'CICLOVIA',
+
+  PRACA = 'PRACA',
+
+  MORADIA = 'MORADIA',
+
+  CONDOMINIO = 'CONDOMINIO',
+
+  TRILHA = 'TRILHA',
+
+  OUTRO = 'OUTRO',
+}

@@ -1,0 +1,9 @@
+{
+  "levaramMinhaBikeApp": {
+    "TipoEvento": {
+      "null": "",
+      "FURTO": "FURTO",
+      "ROUBO": "ROUBO"
+    }
+  }
+}

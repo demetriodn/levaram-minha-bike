@@ -42,7 +42,9 @@
     "jwtSecretKey": "ZGVlYzI0Y2Y2YWRkZDgxNzY4ZWZiNDlkZTIwMjA0OWJlNmFiNzIxODRjYmZiYTdkYTA5YTUzNTMwMDg4YTc1NGVjMzgzMDI3NTQwOGM5ZjJhZjZiNWE5MWE0ZDY3ZmU0OTA0OWU5MTJhNDIzNjJmNTVlNjgzNGExMDhlOWEyZGI=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["UsuarioAplicacao", "Evento", "Bicicleta", "BicicletaFoto", "BicicletaComentario"],
+    "lastLiquibaseTimestamp": 1623726226000
   },
   "git-provider": "GitHub",
   "git-company": "demetriodn",
